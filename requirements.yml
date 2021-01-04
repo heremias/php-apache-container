@@ -1,6 +1,6 @@
 ---
 - src: heremias.apache
-- src: heremias.php-versions
+- src: heremias.php_versions
 - src: heremias.php
-- src: heremias.php-mysql
+- src: heremias.php_mysql
 - src: heremias.composer
