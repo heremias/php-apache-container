@@ -64,13 +64,13 @@
     - name: heremias.apache
       delegate_to: '{{ container_name }}'
 
-    - name: heremias.php-versions
+    - name: heremias.php_versions
       delegate_to: '{{ container_name }}'
 
     - name: heremias.php
       delegate_to: '{{ container_name }}'
 
-    - name: heremias.php-mysql
+    - name: heremias.php_mysql
       delegate_to: '{{ container_name }}'
 
     - name: heremias.composer
