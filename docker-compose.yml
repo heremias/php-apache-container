@@ -3,7 +3,7 @@ version: "3"
 
 services:
   php-apache:
-    image: geerlingguy/php-apache:latest
+    image: heremias/php-apache:latest
     container_name: php-apache
     ports:
       - "80:80"
