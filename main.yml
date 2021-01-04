@@ -6,7 +6,7 @@
   vars:
     base_image: debian:buster
     container_name: php_apache_build_container
-    image_namespace: geerlingguy
+    image_namespace: heremias
     image_name: php-apache
 
     # Apache settings.
@@ -61,19 +61,19 @@
       delegate_to: '{{ container_name }}'
 
   roles:
-    - name: geerlingguy.apache
+    - name: heremias.apache
       delegate_to: '{{ container_name }}'
 
-    - name: geerlingguy.php-versions
+    - name: heremias.php-versions
       delegate_to: '{{ container_name }}'
 
-    - name: geerlingguy.php
+    - name: heremias.php
       delegate_to: '{{ container_name }}'
 
-    - name: geerlingguy.php-mysql
+    - name: heremias.php-mysql
       delegate_to: '{{ container_name }}'
 
-    - name: geerlingguy.composer
+    - name: heremias.composer
       delegate_to: '{{ container_name }}'
 
   post_tasks:
