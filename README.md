@@ -1,6 +1,6 @@
 # PHP Apache Container (Built with Ansible)
 
-[![Build Status](https://travis-ci.org/geerlingguy/php-apache-container.svg?branch=master)](https://travis-ci.org/geerlingguy/php-apache-container) [![](https://images.microbadger.com/badges/image/geerlingguy/php-apache.svg)](https://microbadger.com/images/geerlingguy/php-apache "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/heremias/php-apache-container.svg?branch=master)](https://travis-ci.org/heremias/php-apache-container) 
 
 This project is composed of three main parts:
 
